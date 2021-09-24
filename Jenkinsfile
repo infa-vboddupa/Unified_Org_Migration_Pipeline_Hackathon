@@ -73,16 +73,12 @@ pipeline {
                 sh "rm -f ${after_export}"
          }
     }
-    stage("Check if nodejs is installed") {
+    stage("Install Dependencies") {
          steps {
            sh "npm config ls"
            sh "node -v"
+          sh "npm install "
          }
-    }
-       stage("npm install") {
-         steps {
-           sh "npm install "
-      }
     }
    stage('Read Config File') {
             steps {
