@@ -80,6 +80,11 @@ pipeline {
           sh "npm install "
          }
     }
+   stage("POD_to_POD checks") {
+         steps {
+          sh "node -v"
+         }
+    }
    stage('Read Config File') {
             steps {
               //MyPropertiesConfig configFileId
