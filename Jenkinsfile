@@ -144,7 +144,12 @@ pipeline {
                  echo "Running the pod to pod migration"
                  sh "newman run ${newManCollection} --folder Status -e ${after_export} --reporters cli -k "
              }
-      }      
+      } 
+   stage("Troubleshoot Steps For Migration") {
+         steps {
+          sh "node -v"
+         }
+    }
   } // stages
      post {
      always {
