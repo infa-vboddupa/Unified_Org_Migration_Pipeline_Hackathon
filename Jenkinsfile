@@ -124,7 +124,7 @@ pipeline {
           sh "node -v"
          }
     }
-      stage("Validations"){
+      stage("Sub-org Validations"){
         failFast true
         parallel {
             stage("ParentMigrationId Validate") {
