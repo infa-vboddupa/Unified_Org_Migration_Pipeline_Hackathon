@@ -85,21 +85,6 @@ pipeline {
           sh "npm install "
          }
     }
-   stage("Platform Service version check on Source and Destination pod") {
-         steps {
-          sh "node -v"
-         }
-    }
-   stage("Platform service health check") {
-         steps {
-          sh "node -v"
-         }
-    }
-   stage("Post-deploy Match for p2pms on Source and Destination") {
-         steps {
-          sh "node -v"
-         }
-    }
    stage('Read Config File') {
             steps {
               //MyPropertiesConfig configFileId
@@ -124,6 +109,21 @@ pipeline {
             }//config
           } //steps
       } // stage
+      stage("Platform Service version check on Source and Destination pod") {
+         steps {
+          sh "node -v"
+         }
+    }
+   stage("Platform service health check") {
+         steps {
+          sh "node -v"
+         }
+    }
+   stage("Post-deploy Match for p2pms on Source and Destination") {
+         steps {
+          sh "node -v"
+         }
+    }
       stage("Validations"){
         failFast true
         parallel {
