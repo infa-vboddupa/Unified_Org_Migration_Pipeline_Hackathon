@@ -80,7 +80,17 @@ pipeline {
           sh "npm install "
          }
     }
-   stage("POD_to_POD checks") {
+   stage("Platform Service version check on Source and Destination pod") {
+         steps {
+          sh "node -v"
+         }
+    }
+   stage("Platform service health check") {
+         steps {
+          sh "node -v"
+         }
+    }
+   stage("Post-deploy Match for p2pms on Source and Destination") {
          steps {
           sh "node -v"
          }
