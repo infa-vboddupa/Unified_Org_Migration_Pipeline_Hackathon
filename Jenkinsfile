@@ -47,7 +47,7 @@ pipeline {
         string(name: 'orgId', defaultValue: '', description: 'OrgId of the org to be migrated')
         string(name: 'parentMigrationId', defaultValue: '', description: '(If Moving Suborgs, what is the parent org migid? )')
         string(name: 'configFileId', defaultValue: 'org_migration_config', description: 'Configuration File Id(File that contains urls, passwords)')
-        booleanParam(name: 'includeSubOrgs', defaultValue: false, description: '(R34+, do you want to move org with its suborgs?)')
+        booleanParam(name: 'includeSubOrgs', defaultValue: false, description: '(Want to migrate sub-org also?)')
      }
   stages {
 
