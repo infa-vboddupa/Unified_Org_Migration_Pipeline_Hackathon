@@ -160,14 +160,16 @@ pipeline {
                  sh "newman run ${newManCollection} --folder Status -e ${after_export} --reporters cli -k "
              }
       } 
-         stage("Troubleshooting Source pod") {
+         stage("Source Troubleshooting pod") {
          steps {
-          sh "node -v"
+          echo "Migration_Details_Source_POD: ==> ${stage_name}"
+          sh "newman run ${newManCollection} --folder Migration_details_Source -e ${newManEnvironment}   --reporters cli  -k"
          }
     }
-       stage("Troubleshooting Destination pod") {
+       stage("Destination Troubleshooting pod") {
          steps {
-          sh "node -v"
+          echo "Migration_Details_Destination_POD ==> ${stage_name}"
+          sh "newman run ${newManCollection} --folder Migration_details_Destination -e ${newManEnvironment} --reporters cli -k"
          }
     }
   } // stages
