@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "7f4a6fd7-f190-4462-acf4-6103619ce2dc",
+		"_postman_id": "e2d4a882-82bb-4d53-a802-ccc994d576c6",
 		"name": "orgmigration-pipeline",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -14,7 +14,6 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "f673219a-d9cf-4f76-94ae-dd0671acd380",
 								"exec": [
 									"console.log(\"URL we are calling is: \" + pm.request.url);",
 									"console.log(\"X_INFA_LOG_CTX: \" + pm.request.headers.get(\"X_INFA_LOG_CTX\"));",
@@ -45,7 +44,6 @@
 						{
 							"listen": "prerequest",
 							"script": {
-								"id": "01761033-a3a9-42e2-af99-0a4ca524da5e",
 								"exec": [
 									"",
 									""
@@ -95,7 +93,6 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "4471982b-da8d-47ae-b51d-b57fd3cc4cb7",
 								"exec": [
 									"console.log(\"URL we are calling is: \" + pm.request.url);",
 									"console.log(\"X_INFA_LOG_CTX: \" + pm.request.headers.get(\"X_INFA_LOG_CTX\"));",
@@ -156,7 +153,6 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "4471982b-da8d-47ae-b51d-b57fd3cc4cb7",
 								"exec": [
 									"console.log(\"URL we are calling is: \" + pm.request.url);",
 									"console.log(\"X_INFA_LOG_CTX: \" + pm.request.headers.get(\"X_INFA_LOG_CTX\"));",
@@ -230,8 +226,7 @@
 					},
 					"response": []
 				}
-			],
-			"protocolProfileBehavior": {}
+			]
 		},
 		{
 			"name": "SubOrgCaseValidation",
@@ -242,7 +237,6 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "f673219a-d9cf-4f76-94ae-dd0671acd380",
 								"exec": [
 									"console.log(\"URL we are calling is: \" + pm.request.url);",
 									"console.log(\"X_INFA_LOG_CTX: \" + pm.request.headers.get(\"X_INFA_LOG_CTX\"));",
@@ -268,7 +262,6 @@
 						{
 							"listen": "prerequest",
 							"script": {
-								"id": "01761033-a3a9-42e2-af99-0a4ca524da5e",
 								"exec": [
 									"",
 									""
@@ -318,7 +311,6 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "0d060a81-611c-4044-9247-cba952d4d88a",
 								"exec": [
 									"console.log(\"URL we are calling is: \" + pm.request.url);",
 									"console.log(\"X_INFA_LOG_CTX: \" + pm.request.headers.get(\"X_INFA_LOG_CTX\"));",
@@ -385,7 +377,6 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "4471982b-da8d-47ae-b51d-b57fd3cc4cb7",
 								"exec": [
 									"console.log(\"URL we are calling is: \" + pm.request.url);",
 									"console.log(\"X_INFA_LOG_CTX: \" + pm.request.headers.get(\"X_INFA_LOG_CTX\"));",
@@ -494,7 +485,6 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "77354fb1-decd-4335-85c5-d7fd5618eb14",
 								"exec": [
 									"console.log(\"URL we are calling is: \" + pm.request.url);",
 									"console.log(\"X_INFA_LOG_CTX: \" + pm.request.headers.get(\"X_INFA_LOG_CTX\"));",
@@ -544,8 +534,7 @@
 					},
 					"response": []
 				}
-			],
-			"protocolProfileBehavior": {}
+			]
 		},
 		{
 			"name": "OrgMigration",
@@ -556,7 +545,6 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "f673219a-d9cf-4f76-94ae-dd0671acd380",
 								"exec": [
 									"console.log(\"URL we are calling is: \" + pm.request.url);",
 									"console.log(\"X_INFA_LOG_CTX: \" + pm.request.headers.get(\"X_INFA_LOG_CTX\"));",
@@ -588,7 +576,6 @@
 						{
 							"listen": "prerequest",
 							"script": {
-								"id": "01761033-a3a9-42e2-af99-0a4ca524da5e",
 								"exec": [
 									"",
 									""
@@ -638,7 +625,6 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "4471982b-da8d-47ae-b51d-b57fd3cc4cb7",
 								"exec": [
 									"console.log(\"URL we are calling is: \" + pm.request.url);",
 									"console.log(\"X_INFA_LOG_CTX: \" + pm.request.headers.get(\"X_INFA_LOG_CTX\"));",
@@ -699,7 +685,6 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "7ba9c287-d4ad-49ea-9896-f22f4fe72c63",
 								"exec": [
 									"console.log(pm.request.body);",
 									"console.log(\"URL we are calling is: \" + pm.request.url);",
@@ -731,7 +716,6 @@
 						{
 							"listen": "prerequest",
 							"script": {
-								"id": "cdc3a0d7-b777-4257-af7c-4e3881072f14",
 								"exec": [
 									"/*\r",
 									"{\r",
@@ -822,8 +806,7 @@
 					},
 					"response": []
 				}
-			],
-			"protocolProfileBehavior": {}
+			]
 		},
 		{
 			"name": "Status",
@@ -834,7 +817,6 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "7ba9c287-d4ad-49ea-9896-f22f4fe72c63",
 								"exec": [
 									"var jsonData = JSON.parse(responseBody);",
 									"console.log(\"Status:\"+jsonData.migrationState+\" Id:\"+jsonData.id+\" orgId:\"+jsonData.orgId);",
@@ -868,7 +850,6 @@
 						{
 							"listen": "prerequest",
 							"script": {
-								"id": "cdc3a0d7-b777-4257-af7c-4e3881072f14",
 								"exec": [
 									""
 								],
@@ -914,8 +895,7 @@
 					},
 					"response": []
 				}
-			],
-			"protocolProfileBehavior": {}
+			]
 		},
 		{
 			"name": "Service-Status",
@@ -926,7 +906,6 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "1f09d217-e9f5-4e59-bdb1-9fcd8e888133",
 								"exec": [
 									"",
 									"console.log(responseBody.substring(0,400));",
@@ -1008,7 +987,6 @@
 						{
 							"listen": "prerequest",
 							"script": {
-								"id": "15a6222e-745c-41e0-b4fc-f4e3ed78e7af",
 								"exec": [
 									"var OPERATION=pm.variables.get(\"operation\");",
 									"var pod1_url=pm.variables.get(\"pod1.url\");",
@@ -1059,7 +1037,6 @@
 				{
 					"listen": "prerequest",
 					"script": {
-						"id": "7162dbc8-a462-4350-a825-5636ef8ea076",
 						"type": "text/javascript",
 						"exec": [
 							""
@@ -1069,16 +1046,1236 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "c7de3ebe-66ad-4238-bfff-bd34e2ea294a",
 						"type": "text/javascript",
 						"exec": [
 							""
 						]
 					}
 				}
-			],
-			"protocolProfileBehavior": {}
+			]
+		},
+		{
+			"name": "pod_instance_check",
+			"item": [
+				{
+					"name": "Login",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"if(pm.response.code >= 400 ){",
+									"    console.log(\"Got Response code greater(or equal to) 400\");",
+									"        console.log(responseBody);",
+									"}",
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"var jsonData = JSON.parse(responseBody);",
+									"postman.setEnvironmentVariable(\"p2p_admin_session_id\", jsonData.sessionId);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"username\" : \"{{pod1.AdminUserName}}\",\n\t\"password\" : \"{{pod1.AdminPassword}}\"\n}\n\n"
+						},
+						"url": {
+							"raw": "{{pod1.idsma.url}}/identity-service/api/v1/Login",
+							"host": [
+								"{{pod1.idsma.url}}"
+							],
+							"path": [
+								"identity-service",
+								"api",
+								"v1",
+								"Login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Instance-Check-P2PMS Source",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"postman.setEnvironmentVariable(\"firstCall\",responseBody);",
+									"//Display the response for debugging purpose",
+									"console.log(responseBody);",
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "basic"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "IDS-SESSION-ID",
+								"type": "text",
+								"value": "{{p2p_admin_session_id}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{pod1.url}}/p2pms/Information/id",
+							"host": [
+								"{{pod1.url}}"
+							],
+							"path": [
+								"p2pms",
+								"Information",
+								"id"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Instance-Check-P2PMS-SecondRun Source",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"postman.setEnvironmentVariable(\"secondCall\",responseBody);",
+									"//Display the response for debugging purpose",
+									"console.log(responseBody);",
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"postman.setEnvironmentVariable(\"secondcall\",responseBody);",
+									"",
+									"var firstCall=postman.getEnvironmentVariable(\"firstCall\");",
+									"var secondCall=postman.getEnvironmentVariable(\"secondCall\");",
+									"",
+									"if(firstCall === secondCall)",
+									"{",
+									"    console.log(\"Only One Instance of P2P is running in Source POD\");",
+									"}",
+									"else{",
+									"    console.log(\"Current System does not Support the P2P RUN\");",
+									"}",
+									"pm.expect(firstCall).to.eql(secondCall);",
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "basic"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "IDS-SESSION-ID",
+								"type": "text",
+								"value": "{{p2p_admin_session_id}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{pod1.url}}/p2pms/Information/id",
+							"host": [
+								"{{pod1.url}}"
+							],
+							"path": [
+								"p2pms",
+								"Information",
+								"id"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Instance-Check-P2PMS Destination",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"postman.setEnvironmentVariable(\"firstCall\",responseBody);",
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"console.log(responseBody);",
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "basic"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "IDS-SESSION-ID",
+								"type": "text",
+								"value": "{{p2p_admin_session_id}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{pod2.url}}/p2pms/Information/id",
+							"host": [
+								"{{pod2.url}}"
+							],
+							"path": [
+								"p2pms",
+								"Information",
+								"id"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Instance-Check-P2PMS-SecondRun Destination",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"postman.setEnvironmentVariable(\"secondCall\",responseBody);",
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"console.log(responseBody);",
+									"postman.setEnvironmentVariable(\"secondcall\",responseBody);",
+									"",
+									"var firstCall=postman.getEnvironmentVariable(\"firstCall\");",
+									"var secondCall=postman.getEnvironmentVariable(\"secondCall\");",
+									"",
+									"if(firstCall === secondCall)",
+									"{",
+									"    console.log(\"Only One Instance of P2P is running\");",
+									"}",
+									"else{",
+									"    console.log(\"Current System does not Support the P2P RUN\");",
+									"}",
+									"pm.expect(firstCall).to.eql(secondCall);",
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "basic"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "IDS-SESSION-ID",
+								"type": "text",
+								"value": "{{p2p_admin_session_id}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{pod2.url}}/p2pms/Information/id",
+							"host": [
+								"{{pod2.url}}"
+							],
+							"path": [
+								"p2pms",
+								"Information",
+								"id"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "platformversioncheck",
+			"item": [
+				{
+					"name": "Mgmt-API_POD1",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"if(pm.response.code >= 400 ){",
+									"    console.log(\"Got Response code greater(or equal to) 400\");",
+									"        console.log(responseBody);",
+									"}",
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"postman.setEnvironmentVariable(\"pod1ServiceResponse\",responseBody);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{pod1.url}}/{{serviceloop}}/mgmtapi/version",
+							"host": [
+								"{{pod1.url}}"
+							],
+							"path": [
+								"{{serviceloop}}",
+								"mgmtapi",
+								"version"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Mgmt-API_POD2",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"if(pm.response.code >= 400 ){\r",
+									"    console.log(\"Got Response code greater(or equal to) 400\");\r",
+									"        console.log(responseBody);\r",
+									"}\r",
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"function extractBuildInfo(response) {\r",
+									"    var buildInfo  = {};\r",
+									"    \r",
+									"    var parser = response.split(\"\\n\");\r",
+									"    buildInfo = {\r",
+									"        version: parser[3],\r",
+									"        buildId: parser[4]\r",
+									"    }\r",
+									"    return buildInfo;\r",
+									"}\r",
+									"\r",
+									"pm.test(\"Mgmt API Test\", function () {\r",
+									"    var serviceloop = pm.iterationData.get(\"serviceloop\");\r",
+									"    console.log(\"Service Name \" + serviceloop);\r",
+									"    \r",
+									"    var pod1Response = postman.getEnvironmentVariable(\"pod1ServiceResponse\");\r",
+									"    var pod2Response = responseBody;\r",
+									"    \r",
+									"    var pod1BuildInfo = extractBuildInfo(pod1Response);\r",
+									"    console.log(\"POD 1 Version Deployed \");\r",
+									"    console.log(pod1BuildInfo);\r",
+									"    var pod2BuildInfo = extractBuildInfo(pod2Response);\r",
+									"    console.log(\"POD 2 Version Deployed \");\r",
+									"    console.log(pod2BuildInfo);\r",
+									"    \r",
+									"    pm.expect(pod1BuildInfo.version).to.equal(pod2BuildInfo.version, \"Version do not match  \"+ serviceloop);\r",
+									"    pm.expect(pod1BuildInfo.buildId).to.equal(pod2BuildInfo.buildId, \"Build Id do not match\");\r",
+									"    \r",
+									"});\r",
+									"\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{pod2.url}}/{{serviceloop}}/mgmtapi/version",
+							"host": [
+								"{{pod2.url}}"
+							],
+							"path": [
+								"{{serviceloop}}",
+								"mgmtapi",
+								"version"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "registeredservicehealthcheck",
+			"item": [
+				{
+					"name": "Login",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"if(pm.response.code >= 400 ){",
+									"    console.log(\"Got Response code greater(or equal to) 400\");",
+									"        console.log(responseBody);",
+									"}",
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"var jsonData = JSON.parse(responseBody);",
+									"postman.setEnvironmentVariable(\"p2p_admin_session_id\",jsonData.sessionId);",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "basic"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"username\" : \"{{pod1.AdminUserName}}\",\n\t\"password\" : \"{{pod1.AdminPassword}}\"\n}"
+						},
+						"url": {
+							"raw": "{{pod1.idsma.url}}/identity-service/api/v1/Login",
+							"host": [
+								"{{pod1.idsma.url}}"
+							],
+							"path": [
+								"identity-service",
+								"api",
+								"v1",
+								"Login"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Login as_icsdev",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\t\"username\" : \"{{username}}\",\n\t\"password\" : \"{{password}}\"\n}"
+								},
+								"url": {
+									"raw": "https://{{IDS}}/identity-service/api/v1/Login",
+									"protocol": "https",
+									"host": [
+										"{{IDS}}"
+									],
+									"path": [
+										"identity-service",
+										"api",
+										"v1",
+										"Login"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "Apache-Coyote/1.1"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "X-XSS-Protection",
+									"value": "1; mode=block"
+								},
+								{
+									"key": "Pragma",
+									"value": "no-cache"
+								},
+								{
+									"key": "Expires",
+									"value": "0"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json;charset=UTF-8"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Content-Encoding",
+									"value": "gzip"
+								},
+								{
+									"key": "Vary",
+									"value": "Accept-Encoding"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 07 Aug 2019 17:53:24 GMT"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "SAMEORIGIN"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-store,no-cache,must-revalidate"
+								},
+								{
+									"key": "Strict-Transport-Security",
+									"value": "max-age=31536000; includeSubDomains; preload"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"sessionId\": \"8mSzolmudIsg4Wd4MeKlSw\",\n    \"sessionExpireTime\": \"2019-08-07T18:23:25.000Z\",\n    \"id\": \"2IeeXfCa52ti1OIn1qPhYG\",\n    \"name\": \"mayun1\",\n    \"currentOrgId\": \"09I2crvNoJHk3AH2YaSkin\",\n    \"currentOrgName\": \"mayun1\",\n    \"parentOrgId\": \"52ZSTB0IDK6dXxaEQLUaQu\",\n    \"orgId\": \"09I2crvNoJHk3AH2YaSkin\",\n    \"orgName\": \"mayun1\",\n    \"groups\": {},\n    \"effectiveRoles\": {\n        \"Designer\": \"1VfnsgZiCT1fi25VAupQg1\",\n        \"Data Preview\": \"9c2XrdpAz80hg29yXDBPEN\",\n        \"Admin\": \"9gedBDoYQoQibNMohf5KCh\"\n    },\n    \"effectivePrivileges\": [\n        \"update.cih_subscription\",\n        \"delete.swagger\",\n        \"view.custom.source\",\n        \"update.hschema\",\n        \"changeperm_alltypes\",\n        \"create.cih_subscription\",\n        \"execute.fwconfig\",\n        \"update.b2bgw_supplier\",\n        \"changeperm.cih_publication\",\n        \"view.dmask.task\",\n        \"oi.domain.infra.alert.modify\",\n        \"create.hschema\",\n        \"delete.cih_application\",\n        \"oi.secure.agent.alert.modify\",\n        \"delete.project\",\n        \"migration.oie.export\",\n        \"delete.taskflow\",\n        \"changeperm.cih_monitoring_rule\",\n        \"update.b2bgw_monitor\",\n        \"changeperm.mtt.task\",\n        \"execute.pcs.task\",\n        \"create.drs.task\",\n        \"execute.file.listener\",\n        \"manage.cih\",\n        \"create.dmask.task\",\n        \"view.debugLogs\",\n        \"view.privilege\",\n        \"view.folder\",\n        \"execute.b2bgw_monitor\",\n        \"changeperm.fwconfig\",\n        \"update.si.task\",\n        \"update.user.group\",\n        \"ai.console.admin\",\n        \"execute.datawiz.task\",\n        \"delete.user.group\",\n        \"update.mtt.task\",\n        \"changeperm.pcs.task\",\n        \"oi.cloud.infra.view\",\n        \"create.b2bgw_customer\",\n        \"changeperm.agent\",\n        \"create.cih_topic\",\n        \"delete.sub.org\",\n        \"view.cih_monitoring_rule\",\n        \"view.cih_subscription\",\n        \"delete.connection\",\n        \"create.cih_application\",\n        \"update.agent.group\",\n        \"update.workflow.task\",\n        \"view.structure.discovery\",\n        \"create.bundle\",\n        \"delete.b2bgw_monitor\",\n        \"delete.user\",\n        \"view.bservice\",\n        \"delete.folder\",\n        \"update.agent\",\n        \"view.dtrepo.obj\",\n        \"update.pcs.task\",\n        \"view.sub.orgs\",\n        \"apiportal.view\",\n        \"update.fwconfig\",\n        \"update.folder\",\n        \"delete.cih_monitoring_rule\",\n        \"delete.file.listener\",\n        \"update.org\",\n        \"delete.b2bgw_customer\",\n        \"view.DICTIONARY\",\n        \"create.cih_publication\",\n        \"changeperm.project\",\n        \"create.ai.assets\",\n        \"view.mtt.task\",\n        \"view.datawiz.task\",\n        \"edc.iics.discovery\",\n        \"delete.structure.discovery\",\n        \"changeperm.custom.source\",\n        \"create.pcs.task\",\n        \"manage.api\",\n        \"delete.dtrepo.obj\",\n        \"oi.domain.infra.modify\",\n        \"changeperm.connection\",\n        \"update.dtrepo.obj\",\n        \"view.scheduler.blackout\",\n        \"update.sub.org.license\",\n        \"execute.ai.assets\",\n        \"view.schedule\",\n        \"changeperm.b2bgw_supplier\",\n        \"view.fwconfig\",\n        \"create.DICTIONARY\",\n        \"view.bundle\",\n        \"delete.schedule\",\n        \"changeperm.custom.func\",\n        \"create.mft.task\",\n        \"update.cih_monitoring_rule\",\n        \"create.user\",\n        \"create.workflow.task\",\n        \"create.schedule\",\n        \"update.connection\",\n        \"view.project\",\n        \"delete.b2bgw_supplier\",\n        \"Operational Insights\",\n        \"create.mtt.task\",\n        \"view.agent\",\n        \"update.bservice\",\n        \"delete.role\",\n        \"delete.pcs.task\",\n        \"view.RULE_SPECIFICATION\",\n        \"execute.dtrepo.obj\",\n        \"view.agent.group\",\n        \"publish.bundle\",\n        \"delete.mft.task\",\n        \"vcs.asset.check_in_out\",\n        \"create.agent\",\n        \"execute.workflow.task\",\n        \"delete.datawiz.task\",\n        \"ai.admin\",\n        \"migration.oie.import\",\n        \"view.job.results\",\n        \"update.cih_publication\",\n        \"update.scheduler.blackout\",\n        \"view.cih_application\",\n        \"update.ats_cluster\",\n        \"changeperm.bservice\",\n        \"create.trepo.obj\",\n        \"view.b2bgw_customer\",\n        \"update.scheduler.job\",\n        \"setpermissions.RULE_SPECIFICATION\",\n        \"delete.custom.source\",\n        \"update.cih_application\",\n        \"update.file.listener\",\n        \"update.user\",\n        \"update.custom.func\",\n        \"view.ai.console\",\n        \"execute.mtt.task\",\n        \"changeperm.dmask.task\",\n        \"setpermissions.DICTIONARY\",\n        \"execute.b2bgw_supplier\",\n        \"create.RULE_SPECIFICATION\",\n        \"view.mft.task\",\n        \"view.connection\",\n        \"update.project\",\n        \"view.user\",\n        \"vcs.asset.pull\",\n        \"publish.ai.assets\",\n        \"view.file.listener\",\n        \"execute.mft.task\",\n        \"create.swagger\",\n        \"view.user.group\",\n        \"delete.bservice\",\n        \"update.schedule\",\n        \"view.b2bgw_monitor\",\n        \"execute.hschema\",\n        \"changeperm.trepo.obj\",\n        \"update.dmask.task\",\n        \"create.project\",\n        \"view.cih_publication\",\n        \"update.structure.discovery\",\n        \"changeperm.dbmi.task\",\n        \"create.user.group\",\n        \"changeperm.schedule\",\n        \"update.sub.org\",\n        \"view.trepo.obj\",\n        \"changeperm.cih_subscription\",\n        \"execute.dmask.task\",\n        \"update.swagger\",\n        \"update.mft.task\",\n        \"delete.cih_subscription\",\n        \"create.custom.func\",\n        \"view.dbmi.task\",\n        \"execute.si.task\",\n        \"create.cih_monitoring_rule\",\n        \"execute.custom.source\",\n        \"delete.cih_topic\",\n        \"changeperm.hschema\",\n        \"update.b2bgw_customer\",\n        \"view.org\",\n        \"changeperm.folder\",\n        \"ai.monitoring\",\n        \"view.drs.task\",\n        \"create.bservice\",\n        \"update.RULE_SPECIFICATION\",\n        \"changeperm.mft.task\",\n        \"delete.fwconfig\",\n        \"execute.trepo.obj\",\n        \"data.preview\",\n        \"delete.trepo.obj\",\n        \"update.trepo.obj\",\n        \"view.ai.assets\",\n        \"changeperm.ai.assets\",\n        \"create.scheduler.job\",\n        \"execute.dbmi.task\",\n        \"create.b2bgw_supplier\",\n        \"delete.dbmi.task\",\n        \"execute.structure.discovery\",\n        \"delete.si.task\",\n        \"delete.mtt.task\",\n        \"create.scheduler.blackout\",\n        \"view.ats_cluster\",\n        \"ai.assets.development\",\n        \"delete.hschema\",\n        \"update.role\",\n        \"view.workflow.task\",\n        \"update.cih_topic\",\n        \"update.datawiz.task\",\n        \"update.custom.source\",\n        \"changeperm.workflow.task\",\n        \"create.sub.org\",\n        \"changeperm.cih_topic\",\n        \"delete.agent.group\",\n        \"delete.scheduler.job\",\n        \"delete.RULE_SPECIFICATION\",\n        \"create.ats_cluster\",\n        \"create.structure.discovery\",\n        \"delete.agent\",\n        \"view.taskflowMonitor\",\n        \"create.connection\",\n        \"create.b2bgw_monitor\",\n        \"delete.dss.task\",\n        \"changeperm.file.listener\",\n        \"create.fwconfig\",\n        \"create.file.listener\",\n        \"view.pcs.task\",\n        \"view.ai.designer\",\n        \"view.auditLog\",\n        \"view.si.task\",\n        \"view.connectors\",\n        \"update.DICTIONARY\",\n        \"changeperm.agent.group\",\n        \"view.role\",\n        \"view.b2bgw_supplier\",\n        \"install.bundle\",\n        \"view.hschema\",\n        \"update.bundle\",\n        \"changeperm.b2bgw_monitor\",\n        \"update.drs.task\",\n        \"changeperm.b2bgw_customer\",\n        \"execute.cih_publication\",\n        \"changeperm.dtrepo.obj\",\n        \"changeperm.taskflow\",\n        \"publish.taskflow\",\n        \"execute.drs.task\",\n        \"view.taskflowMonitorDetails\",\n        \"execute.b2bgw_customer\",\n        \"delete.DICTIONARY\",\n        \"execute.cih_subscription\",\n        \"link.sub.org\",\n        \"view.taskflowDesigner\",\n        \"changeperm.si.task\",\n        \"update.ai.assets\",\n        \"view.swagger\",\n        \"delete.workflow.task\",\n        \"execute.taskflow\",\n        \"view.custom.func\",\n        \"schedule.taskflow\",\n        \"view.scheduler.job\",\n        \"create.dss.task\",\n        \"create.datawiz.task\",\n        \"create.role\",\n        \"update.dbmi.task\",\n        \"create.folder\",\n        \"manage.b2bgw\",\n        \"unlink.sub.org\",\n        \"execute.dss.task\",\n        \"create.dtrepo.obj\",\n        \"view.dss.task\",\n        \"vcs.configure.source.control\",\n        \"delete.custom.func\",\n        \"changeperm.dss.task\",\n        \"create.si.task\",\n        \"view.taskflow\",\n        \"changeperm.cih_application\",\n        \"delete.drs.task\",\n        \"changeperm.structure.discovery\",\n        \"update.dss.task\",\n        \"create.agent.group\",\n        \"execute.custom.func\",\n        \"delete.dmask.task\",\n        \"changeperm.datawiz.task\",\n        \"update.taskflow\",\n        \"ai.data.viewer\",\n        \"delete.cih_publication\",\n        \"delete.ai.assets\",\n        \"view.cih_topic\",\n        \"delete.bundle\",\n        \"create.dbmi.task\",\n        \"delete.ats_cluster\",\n        \"create.custom.source\",\n        \"create.taskflow\",\n        \"changeperm.drs.task\"\n    ],\n    \"status\": \"1\",\n    \"timeZoneId\": \"America/Los_Angeles\",\n    \"authenticator\": 0\n}"
+						}
+					]
+				},
+				{
+					"name": "GET-pod1-migration-service-entry",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"if(pm.response.code >= 400 ){",
+									"    console.log(\"Got Response code greater(or equal to) 400\");",
+									"        console.log(responseBody);",
+									"}",
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"function extractServiceNames(data) {",
+									"    var serviceNames = [];",
+									"    for(var i=0; i<data.length; i++) {",
+									"        serviceNames.push(data[i].serviceName);",
+									"    }",
+									"    return serviceNames;",
+									"}",
+									"",
+									"pm.test(\"Number of Pod1 Service Names\", function () {",
+									"    var serviceNames = extractServiceNames(JSON.parse(responseBody).value);",
+									"    console.log('Pod 1', serviceNames);",
+									"    pm.expect(serviceNames.length).to.be.above(0, \"Pod 1 Service Names Less Than 0\");",
+									"    postman.setEnvironmentVariable(\"pod1serviceNames\", JSON.stringify(serviceNames));",
+									"    postman.setEnvironmentVariable(\"serviceCounter1\", 0);",
+									"});",
+									"    ",
+									"",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "IDS-SESSION-ID",
+								"type": "text",
+								"value": "{{p2p_admin_session_id}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{pod1.url}}/p2pms/api/v1/PodMigrationServiceRegistrationUrls",
+							"host": [
+								"{{pod1.url}}"
+							],
+							"path": [
+								"p2pms",
+								"api",
+								"v1",
+								"PodMigrationServiceRegistrationUrls"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET-pod1-Health-Check_Registered_Services",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"if(pm.response.code >= 400 ){",
+									"    console.log(\"Got Response code greater(or equal to) 400\");",
+									"        console.log(responseBody);",
+									"}",
+									"var serviceNameCounter = parseInt(pm.environment.get(\"serviceCounter1\"));",
+									"serviceNameCounter = serviceNameCounter + 1;",
+									"postman.setEnvironmentVariable(\"serviceCounter1\", serviceNameCounter);",
+									"",
+									"pm.test(\"Health Check Response Pod 1\", function () {",
+									"    if(pm.response.code != 200 ) {",
+									"        var pod1_service_name = pm.environment.get(\"pod1_service_name\");",
+									"        console.log(pod1_service_name + \" failed\")",
+									"    }",
+									"    var serviceNames = JSON.parse(pm.environment.get(\"pod1serviceNames\"));",
+									"    if(serviceNames.length <= serviceNameCounter) {",
+									"         postman.setNextRequest(\"GET-pod2-migration-service-entry\");",
+									"    }",
+									"    else {",
+									"        postman.setNextRequest(\"GET-pod1-Health-Check_Registered_Services\");",
+									"    }",
+									"})"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"if (!pm.environment.has(\"pod1serviceNames\")) {",
+									"    pm.environment.set(\"pod1_service_name\", \"\");",
+									"    console.log(\"No Service Name data present\");",
+									"    postman.setNextRequest(\"GET-pod2-migration-service-entry\");",
+									"}",
+									"",
+									"var serviceNameCounter = parseInt(pm.environment.get(\"serviceCounter1\")); ",
+									"var serviceNames = JSON.parse(pm.environment.get(\"pod1serviceNames\"));",
+									"pm.environment.set(\"pod1_service_name\", serviceNames[serviceNameCounter]);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "IDS-SESSION-ID",
+								"type": "text",
+								"value": "{{p2p_admin_session_id}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{pod1.url}}/{{pod1_service_name}}/mgmtapi/healthy",
+							"host": [
+								"{{pod1.url}}"
+							],
+							"path": [
+								"{{pod1_service_name}}",
+								"mgmtapi",
+								"healthy"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET-pod2-migration-service-entry",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"if(pm.response.code >= 400 ){",
+									"    console.log(\"Got Response code greater(or equal to) 400\");",
+									"        console.log(responseBody);",
+									"}",
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"function extractServiceNames(data) {",
+									"    var serviceNames = [];",
+									"    for(var i=0; i<data.length; i++) {",
+									"        serviceNames.push(data[i].serviceName);",
+									"    }",
+									"    return serviceNames;",
+									"}",
+									"",
+									"pm.test(\"Number of Pod2 Service Names\", function () {",
+									"    var serviceNames = extractServiceNames(JSON.parse(responseBody).value);",
+									"    console.log('Pod 2 ', serviceNames);",
+									"    pm.expect(serviceNames.length).to.be.above(0, \"Pod 2 Service Names Less Than 0\");",
+									"    postman.setEnvironmentVariable(\"pod2serviceNames\", JSON.stringify(serviceNames));",
+									"    postman.setEnvironmentVariable(\"serviceCounter2\", 0);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "IDS-SESSION-ID",
+								"type": "text",
+								"value": "{{p2p_admin_session_id}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{pod2.url}}/p2pms/api/v1/PodMigrationServiceRegistrationUrls",
+							"host": [
+								"{{pod2.url}}"
+							],
+							"path": [
+								"p2pms",
+								"api",
+								"v1",
+								"PodMigrationServiceRegistrationUrls"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET-pod2-migration-Health-Check_Registered_Services",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"if(pm.response.code >= 400 ){",
+									"    console.log(\"Got Response code greater(or equal to) 400\");",
+									"        console.log(responseBody);",
+									"}",
+									"",
+									"var serviceNameCounter = parseInt(pm.environment.get(\"serviceCounter2\"));",
+									"serviceNameCounter = serviceNameCounter + 1;",
+									"postman.setEnvironmentVariable(\"serviceCounter2\", serviceNameCounter);",
+									"",
+									"pm.test(\"Health Check Response Pod 2\", function () {",
+									"    //pm.response.to.have.status(200);",
+									"    if(pm.response.code != 200) {",
+									"        var pod2_service_name = pm.environment.get(\"pod2_service_name\");",
+									"        console.log(pod2_service_name + \" failed\")",
+									"    }",
+									"    var serviceNames = JSON.parse(pm.environment.get(\"pod2serviceNames\"));",
+									"    if(serviceNames.length <= serviceNameCounter) {",
+									"         pm.test(\"Service Name Check in 2 PODS\", function () {",
+									"            var  _ = require('lodash');",
+									"            var serviceNamesPod1 = JSON.parse(pm.environment.get(\"pod1serviceNames\"));",
+									"            var serviceNamesPod2 = JSON.parse(pm.environment.get(\"pod2serviceNames\"));",
+									"            ",
+									"            //console.log(serviceNamesPod1);",
+									"            //console.log(serviceNamesPod2);",
+									"            ",
+									"            var temp1Diff = _.difference(serviceNamesPod1, serviceNamesPod2);",
+									"            if(temp1Diff.length > 0) {",
+									"                console.log(\"Missing Service Names in Pod 2\");",
+									"                console.log(JSON.stringify(temp1Diff));",
+									"            }",
+									"         });",
+									"    }",
+									"    else {",
+									"        postman.setNextRequest(\"GET-pod2-migration-Health-Check_Registered_Services\");",
+									"    }",
+									"})",
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"if (!pm.environment.has(\"pod2serviceNames\")) {",
+									"    pm.environment.set(\"pod2_service_name\", \"\");",
+									"    //console.log(\"No Service Name data present\");",
+									"    throw Error(\"No Service Name data present\");",
+									"}",
+									"",
+									"var serviceNameCounter = parseInt(pm.environment.get(\"serviceCounter2\")); ",
+									"var serviceNames = JSON.parse(pm.environment.get(\"pod2serviceNames\"));",
+									"pm.environment.set(\"pod2_service_name\", serviceNames[serviceNameCounter]);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "IDS-SESSION-ID",
+								"type": "text",
+								"value": "{{p2p_admin_session_id}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{pod2.url}}/{{pod2_service_name}}/mgmtapi/healthy",
+							"host": [
+								"{{pod2.url}}"
+							],
+							"path": [
+								"{{pod2_service_name}}",
+								"mgmtapi",
+								"healthy"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Migration_details_Source",
+			"item": [
+				{
+					"name": "Admin Login",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"console.log(\"URL we are calling is: \" + pm.request.url);",
+									"tests[\"Status code is 200\"] = responseCode.code === 200;",
+									"",
+									"var jsonData = JSON.parse(responseBody);",
+									"postman.setEnvironmentVariable(\"admin_session_id\", jsonData.sessionId);",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "",
+								"type": "text",
+								"value": "",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"username\" : \"{{pod1.AdminUserName}}\",\n\t\"password\" : \"{{pod1.AdminPassword}}\"\n}"
+						},
+						"url": {
+							"raw": "{{pod1.idsma.url}}/identity-service/api/v1/Login",
+							"host": [
+								"{{pod1.idsma.url}}"
+							],
+							"path": [
+								"identity-service",
+								"api",
+								"v1",
+								"Login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Error Details MigrationDetails Source",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"var jsonData = JSON.parse(responseBody)",
+									"pm.test(\"Value Check\", function () {;",
+									"    //console.log(jsonData.value);",
+									"    if(jsonData.value[0] == null  )",
+									"    {",
+									"        console.log(\"No Data to display on Migration details on Source\");",
+									"    }",
+									"    else",
+									"    {",
+									"        for( var i = 0 ; i < jsonData.value.length; i++) {",
+									"        if(jsonData.value[i].errorDetails != '' && jsonData.value[i].errorDetails != \"null\"){",
+									"            console.log(jsonData.value[i].serviceName);",
+									"            console.log(jsonData.value[i].errorDetails);",
+									"            console.log(jsonData.value[i].operation);",
+									"        }",
+									"    }",
+									"    }",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "",
+								"type": "text",
+								"value": "",
+								"disabled": true
+							},
+							{
+								"key": "IDS-SESSION-ID",
+								"type": "text",
+								"value": "{{admin_session_id}}"
+							}
+						],
+						"url": {
+							"raw": "{{pod1.url}}/p2pms/api/v1/MigrationDetails?$filter=migrationId eq '{{migrationId}}'",
+							"host": [
+								"{{pod1.url}}"
+							],
+							"path": [
+								"p2pms",
+								"api",
+								"v1",
+								"MigrationDetails"
+							],
+							"query": [
+								{
+									"key": "$filter",
+									"value": "migrationId eq '{{migrationId}}'"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Migration_details_Destination",
+			"item": [
+				{
+					"name": "Admin Login",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"console.log(\"URL we are calling is: \" + pm.request.url);",
+									"tests[\"Status code is 200\"] = responseCode.code === 200;",
+									"",
+									"var jsonData = JSON.parse(responseBody);",
+									"postman.setEnvironmentVariable(\"admin_session_id\", jsonData.sessionId);",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "",
+								"type": "text",
+								"value": "",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"username\" : \"{{pod1.AdminUserName}}\",\n\t\"password\" : \"{{pod1.AdminPassword}}\"\n}"
+						},
+						"url": {
+							"raw": "{{pod1.idsma.url}}/identity-service/api/v1/Login",
+							"host": [
+								"{{pod1.idsma.url}}"
+							],
+							"path": [
+								"identity-service",
+								"api",
+								"v1",
+								"Login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Error Details MigrationDetails Destination",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"var jsonData = JSON.parse(responseBody)",
+									"pm.test(\"Value Check\", function () {;",
+									"    //console.log(jsonData.value);",
+									"    if(jsonData.value[0] == null  )",
+									"    {",
+									"        console.log(\"no data to display on migration details Destination\");",
+									"    }",
+									"    else",
+									"    {",
+									"        for( var i = 0 ; i < jsonData.value.length; i++) {",
+									"        if(jsonData.value[i].errorDetails != '' && jsonData.value[i].errorDetails != \"null\"){",
+									"            console.log(jsonData.value[i].serviceName);",
+									"            console.log(jsonData.value[i].errorDetails);",
+									"            console.log(jsonData.value[i].operation);",
+									"        }",
+									"    }",
+									"        //console.log(jsonData.value[0]);",
+									"        console.log(\"fail\");",
+									"        pm.expect.fail();",
+									"    }",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "",
+								"type": "text",
+								"value": "",
+								"disabled": true
+							},
+							{
+								"key": "IDS-SESSION-ID",
+								"type": "text",
+								"value": "{{admin_session_id}}"
+							}
+						],
+						"url": {
+							"raw": "{{pod2.url}}/p2pms/api/v1/MigrationDetails?$filter=migrationId eq '{{migrationId}}'",
+							"host": [
+								"{{pod2.url}}"
+							],
+							"path": [
+								"p2pms",
+								"api",
+								"v1",
+								"MigrationDetails"
+							],
+							"query": [
+								{
+									"key": "$filter",
+									"value": "migrationId eq '{{migrationId}}'"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
 		}
-	],
-	"protocolProfileBehavior": {}
+	]
 }
