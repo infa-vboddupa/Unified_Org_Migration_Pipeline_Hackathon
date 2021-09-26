@@ -121,12 +121,6 @@ pipeline {
           sh "newman run ${newManCollection} --folder registeredservicehealthcheck -e ${newManEnvironment}"
          }
     }
-   stage("Post-deploy Match for p2pms on Source and Destination") {
-         steps {
-          echo "Post Deploy Check"
-          sh "newman run ${newManCollection} --folder postdeploy -e ${newManEnvironment}"
-         }
-    }
       stage("Sub-org Validations"){
         failFast true
         parallel {
