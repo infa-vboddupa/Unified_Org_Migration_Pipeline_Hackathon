@@ -154,7 +154,13 @@ pipeline {
           sh "newman run ${newManCollection} --folder OrgMigration -e ${newManEnvironment} --reporters cli -k --export-environment ./${after_export}"
         }
       }
-      stage("Troubleshooting Source pod") {
+      stage("OrgMigration Status Check"){
+             steps {
+                 echo "Running the pod to pod migration"
+                 sh "newman run ${newManCollection} --folder Status -e ${after_export} --reporters cli -k "
+             }
+      } 
+         stage("Troubleshooting Source pod") {
          steps {
           sh "node -v"
          }
@@ -164,12 +170,6 @@ pipeline {
           sh "node -v"
          }
     }
-      stage("OrgMigration Status Check"){
-             steps {
-                 echo "Running the pod to pod migration"
-                 sh "newman run ${newManCollection} --folder Status -e ${after_export} --reporters cli -k "
-             }
-      } 
   } // stages
      post {
      always {
