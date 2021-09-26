@@ -837,9 +837,9 @@
 									"}",
 									"else if ( jsonData.migrationState === \"ERROR\"){",
 									"    console.log(responseBody);",
-									"    console.log(\"Migration failed check sumo logs for now\");",
 									"        pm.test(\"False-Check\", function () {",
-									"        pm.expect(jsonData.migrationState).to.eql(\"DONE\");",
+									"            console.log(\"Error Now we invoke troubleshoot steps to route to respective team owners\");",
+									"        //pm.expect(jsonData.migrationState).to.eql(\"DONE\");",
 									"});",
 									"}",
 									""
