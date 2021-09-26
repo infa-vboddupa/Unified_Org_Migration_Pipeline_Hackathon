@@ -111,7 +111,7 @@ pipeline {
       } // stage
       stage("Platform Service version check on Source and Destination pod") {
          steps {
-          sh "node -v"
+          sh "newman run ${newManCollection} --folder platformversioncheck -d service.csv -e ${newManEnvironment}"
          }
     }
    stage("Platform service health check") {
