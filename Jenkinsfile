@@ -111,17 +111,20 @@ pipeline {
       } // stage
       stage("Platform Service version check on Source and Destination pod") {
          steps {
+          echo "Platform Service Version Check"
           sh "newman run ${newManCollection} --folder platformversioncheck -d service.csv -e ${newManEnvironment}"
          }
     }
-   stage("Platform service health check") {
+   stage("Registered service health check") {
          steps {
-          sh "node -v"
+          echo "Registered Service Health Check"
+          sh "newman run ${newManCollection} --folder registeredservicehealthcheck -e ${newManEnvironment}"
          }
     }
    stage("Post-deploy Match for p2pms on Source and Destination") {
          steps {
-          sh "node -v"
+          echo "Post Deploy Check"
+          sh "newman run ${newManCollection} --folder postdeploy -e ${newManEnvironment}"
          }
     }
       stage("Sub-org Validations"){
