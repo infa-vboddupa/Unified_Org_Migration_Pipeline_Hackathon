@@ -2214,8 +2214,8 @@
 									"        }",
 									"    }",
 									"        //console.log(jsonData.value[0]);",
-									"        console.log(\"fail\");",
-									"        pm.expect.fail();",
+									"        //console.log(\"fail\");",
+									"        //pm.expect.fail();",
 									"    }",
 									"});"
 								],
