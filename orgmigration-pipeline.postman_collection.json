@@ -2211,7 +2211,7 @@
 									"            console.log(jsonData.value[i].serviceName);",
 									"            console.log(jsonData.value[i].errorDetails);",
 									"            console.log(jsonData.value[i].operation);",
-									"        if(jsonData.value[i].migrationStatus === \"error\"){",
+									"        if(jsonData.value[i].migrationStatus === \"ERROR\"){",
 									"        console.log(\"fail\");",
 									"        pm.expect.fail();",
 									"    }",
