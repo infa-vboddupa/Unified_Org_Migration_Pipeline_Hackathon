@@ -51,12 +51,11 @@ pipeline {
      }
   stages {
 
-    stage("Parameter Check"){
+    stage("Input Sanitization"){
       steps {
           script {
              if( params.orgId == null || params.orgId.trim().isEmpty()){
                println(" error");
-               error("orgId parameter needs to be specified")
              }
              if(params.configFileId == null || params.configFileId.trim().isEmpty()){
                println("configFileId validation error")
@@ -85,7 +84,7 @@ pipeline {
           sh "npm install "
          }
     }
-   stage('Read Config File') {
+   stage('Input Reader') {
             steps {
               //MyPropertiesConfig configFileId
               //org_migration_config
